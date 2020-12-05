@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-left: 10px;
+}
+ul li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+img{
+    width: 10%;
+    height: auto;
+}
