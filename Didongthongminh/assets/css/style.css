@@ -18,7 +18,7 @@
 }
 .navbar{
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
 }
 .head-grid{
     display: flex;
@@ -26,7 +26,6 @@
 }
 .head-grid_1{
     display: flex;
-    justify-content: space-around;
 }
 .has-border{
     border-right: 1px solid rgb(180, 169, 169);
@@ -59,11 +58,12 @@
 .box{
     background-color: white;
     display:flex;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
    
 }
 .header-select-box{
     padding:0;
+    /* width: 35%; */
 }
 .logo-page{
     vertical-align: middle;
@@ -103,6 +103,7 @@ input:focus{
 }
 .region-search{
     position: relative;
+    /* width: 60%; */
 }
 .icon_seach-link{
     position: absolute;
@@ -126,6 +127,7 @@ input:focus{
 }
 .list-product-item{
     list-style: none;
+    display: block;
     /* align-content: center; */
    
 }.icon-product{
@@ -135,7 +137,7 @@ input:focus{
     margin-top:15px;
 }
 .name-product{
-    display: inline-block;
+    display:inline;
     font-size: 0.9rem;
 }
 
@@ -180,11 +182,8 @@ input:focus{
 .tintucchitiet{
     background-color: white;
     width: 100%  !important;
-    margin-top:5px;
-    padding-top: 5px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 5px;
+    margin-top:20px;
+    padding:5px 12px 5px 12px;
     
 }
 .tintuc-tieude{
@@ -319,4 +318,54 @@ input:focus{
     bottom: -5px;
     border-top:5px solid #dd732c;
     border-left: 5px solid transparent;
+}
+/* footer */
+.footer_grid-content{
+    background-color: white;
+    display: flex;
+    margin-top:50px;
+    padding:20px 0px 20px 0px;
+}
+.send_email{
+    background-color: white;
+}
+.email{
+    display: flex;
+}
+.email_img{
+
+}
+.email_text{
+    display: flex;
+    flex-direction: column ;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.email_text-1{
+    font-size: large;
+    margin-bottom: 5px;
+}
+.email_text-2{
+    font-size: small;
+    
+}
+.col{
+    width: 50%;
+}
+.btnButton{
+    margin-top:20px;
+    font-size: 1rem;
+    padding:5px 30px 5px 30px;
+    background-color: #FF6600 ;
+    color: white;
+    border:1px solid  #FF6600 ;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: 20px;
+    padding-top:5px;
 }
